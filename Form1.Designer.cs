@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(30, 54);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(644, 204);
+            this.dataGridView1.Size = new System.Drawing.Size(542, 204);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 

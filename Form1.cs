@@ -27,11 +27,43 @@ namespace WindowsFormsApp1
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            this.dataGridView1.Columns[0].HeaderText = "No. Mahasiswa";
+
+            
             //Mengubah warna kolom no mahasiswa
             //Mengubah tulisan menjadi warna ungu
             this.dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Purple;
             //Mengubah latar kolom menjadi warna pink
             this.dataGridView1.Columns[0].DefaultCellStyle.SelectionBackColor = Color.Pink;
+
+            //Mengubah warna kolom nama mahasiswa
+            //Mengubah tulisan menjadi warna biru
+            this.dataGridView1.Columns[1].DefaultCellStyle.ForeColor = Color.Blue;
+            //Mengubah latar kolom menjadi warna orage
+            this.dataGridView1.Columns[1].DefaultCellStyle.SelectionBackColor = Color.Orange;
+
+            //Mengubah warna kolom alamat mahasiswa
+            //Mengubah tulisan menjadi warna birumuda
+            this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.LightSeaGreen;
+            //Mengubah latar kolom menjadi warna hijau
+            this.dataGridView1.Columns[2].DefaultCellStyle.SelectionBackColor = Color.Green;
+
+
+            //Mengubah warna kolom jenis kelamin
+            //Mengubah tulisan menjadi warna hijau
+            this.dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.Green;
+            //Mengubah latar kolom menjadi warna biru tua
+            this.dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.DarkBlue;
+
+            //Mengubah warna kolom notelepon
+            //Mengubah tulisan menjadi warna marun
+            this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Maroon;
+            //Mengubah latar kolom menjadi warna marun
+            this.dataGridView1.Columns[5].DefaultCellStyle.SelectionBackColor = Color.Maroon;
+
+
+
+
         }
     }
 }
