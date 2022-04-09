@@ -27,9 +27,31 @@ namespace WindowsFormsApp1
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            //Mengubah nama kolom
             this.dataGridView1.Columns[0].HeaderText = "No. Mahasiswa";
+            this.dataGridView1.Columns[1].HeaderText = "Nama Mahasiswa";
+            this.dataGridView1.Columns[2].HeaderText = "Alamat Mahasiswa";
+            this.dataGridView1.Columns[3].HeaderText = "Jenis Kelamin";
+            this.dataGridView1.Columns[4].HeaderText = "No. Telepon";
+
+            //Membuat panjang kolom 100
+            this.dataGridView1.Columns[0].Width = 100;
+            this.dataGridView1.Columns[1].Width = 100;
+            this.dataGridView1.Columns[2].Width = 100;
+            this.dataGridView1.Columns[3].Width = 100;
+            this.dataGridView1.Columns[4].Width = 100;
+
+            //Membuat nama kolom menggunakan font Arial dan tebal (bold)
+            this.dataGridView1.Columns[0].HeaderCell.Style.Font = new Font ("Arial", 8, FontStyle.Bold);
+            this.dataGridView1.Columns[1].HeaderCell.Style.Font = new Font("Arial", 8, FontStyle.Bold);
+            this.dataGridView1.Columns[2].HeaderCell.Style.Font = new Font("Arial", 8, FontStyle.Bold);
+            this.dataGridView1.Columns[3].HeaderCell.Style.Font = new Font("Arial", 8, FontStyle.Bold);
+            this.dataGridView1.Columns[4].HeaderCell.Style.Font = new Font("Arial", 8, FontStyle.Bold);
 
             
+
+
+
             //Mengubah warna kolom no mahasiswa
             //Mengubah tulisan menjadi warna ungu
             this.dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Purple;
@@ -59,7 +81,7 @@ namespace WindowsFormsApp1
             //Mengubah tulisan menjadi warna marun
             this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Maroon;
             //Mengubah latar kolom menjadi warna marun
-            this.dataGridView1.Columns[5].DefaultCellStyle.SelectionBackColor = Color.Maroon;
+            this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.Maroon;
 
 
 
