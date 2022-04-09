@@ -42,13 +42,14 @@ namespace WindowsFormsApp1
             this.dataGridView1.Columns[4].Width = 100;
 
             //Membuat nama kolom menggunakan font Arial dan tebal (bold)
-            this.dataGridView1.Columns[0].HeaderCell.Style.Font = new Font ("Arial", 8, FontStyle.Bold);
-            this.dataGridView1.Columns[1].HeaderCell.Style.Font = new Font("Arial", 8, FontStyle.Bold);
-            this.dataGridView1.Columns[2].HeaderCell.Style.Font = new Font("Arial", 8, FontStyle.Bold);
-            this.dataGridView1.Columns[3].HeaderCell.Style.Font = new Font("Arial", 8, FontStyle.Bold);
-            this.dataGridView1.Columns[4].HeaderCell.Style.Font = new Font("Arial", 8, FontStyle.Bold);
+            this.dataGridView1.Columns[0].HeaderCell.Style.Font = new Font ("Arial", 9, FontStyle.Bold);
+            this.dataGridView1.Columns[1].HeaderCell.Style.Font = new Font("Arial", 9, FontStyle.Bold);
+            this.dataGridView1.Columns[2].HeaderCell.Style.Font = new Font("Arial", 9, FontStyle.Bold);
+            this.dataGridView1.Columns[3].HeaderCell.Style.Font = new Font("Arial", 9, FontStyle.Bold);
+            this.dataGridView1.Columns[4].HeaderCell.Style.Font = new Font("Arial", 9, FontStyle.Bold);
 
-            
+            //Membuat alignment kolom jenis kelamin menjadi tengah (center)
+            this.dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
 
 
