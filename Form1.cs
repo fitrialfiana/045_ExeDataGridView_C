@@ -27,7 +27,11 @@ namespace WindowsFormsApp1
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            //Mengubah warna kolom no mahasiswa
+            //Mengubah tulisan menjadi warna ungu
+            this.dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Purple;
+            //Mengubah latar kolom menjadi warna pink
+            this.dataGridView1.Columns[0].DefaultCellStyle.SelectionBackColor = Color.Pink;
         }
     }
 }
