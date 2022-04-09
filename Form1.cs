@@ -35,11 +35,11 @@ namespace WindowsFormsApp1
             this.dataGridView1.Columns[4].HeaderText = "No. Telepon";
 
             //Membuat panjang kolom 100
-            this.dataGridView1.Columns[0].Width = 100;
-            this.dataGridView1.Columns[1].Width = 100;
-            this.dataGridView1.Columns[2].Width = 100;
-            this.dataGridView1.Columns[3].Width = 100;
-            this.dataGridView1.Columns[4].Width = 100;
+            this.dataGridView1.Columns[0].Width = 120;
+            this.dataGridView1.Columns[1].Width = 140;
+            this.dataGridView1.Columns[2].Width = 140;
+            this.dataGridView1.Columns[3].Width = 120;
+            this.dataGridView1.Columns[4].Width = 110;
 
             //Membuat nama kolom menggunakan font Arial dan tebal (bold)
             this.dataGridView1.Columns[0].HeaderCell.Style.Font = new Font ("Arial", 9, FontStyle.Bold);
@@ -87,6 +87,11 @@ namespace WindowsFormsApp1
 
 
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
